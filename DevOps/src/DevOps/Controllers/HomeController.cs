@@ -10,6 +10,7 @@ namespace DevOps.Controllers
     {
         public IActionResult Index()
         {
+            var name = "Mohit";
             return View();
         }
 
